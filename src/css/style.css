@@ -1,0 +1,220 @@
+body {
+    font-family: 'poppins';
+    background-color: #F2F0DE;
+}
+
+p {
+    color: #0C2872;
+}
+
+.start {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#media {
+    width: 200px;
+    height: 280px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 55px;
+}
+
+a {
+    transition-duration: 0.4s;
+    color: inherit;
+    text-decoration: none;
+}
+a:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+#singular {
+    width: 445px;
+    padding-left: 50px;
+}
+
+#instalogo {
+    width: 55px;
+}
+
+#youtubelogo {
+    width: 63px;
+}
+
+#tiktoklogo {
+    width: 51px;
+}
+
+#gmaillogo {
+    width: 58px;
+}
+
+.instagram {
+    padding-left: 8px;
+    display: flex;
+    flex-direction: row;
+    width: 215px;
+    justify-content: space-evenly;
+}
+
+#insta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.youtube {
+    display: flex;
+    flex-direction: row;
+    width: 215px;
+    justify-content: space-evenly;
+}
+
+#yout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tiktok {
+    display: flex;
+    flex-direction: row;
+    width: 215px;
+    justify-content: space-evenly;
+}
+
+#tikt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+    width: 215px;
+    justify-content: space-evenly;
+}
+
+#gmail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+    padding-top: 120px;
+}
+
+#repertorio {
+    width: 270px;
+    opacity: 0.85;
+    box-shadow: 0 10px 10px  rgba(0, 0, 0, .3);
+    overflow: auto;
+    transition: 0.4s;
+}
+
+#repertorio:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+#a {
+    width: 230px;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    border-bottom: 2px solid #0C2872;
+}
+
+#b {
+    width: 230px;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.footer {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #bad6eb;
+    align-items: center;
+    height: 55px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    line-height: 60px;
+}
+
+@media (max-width: 770px) {
+    .start {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left {
+        align-items: center;
+    }
+
+    #media {
+        padding-left: 0px;
+    }
+
+    #singular {
+        padding-left: 0px;
+    }
+    
+    .right {
+        padding-top: 45px;
+        padding-right: 0px;
+        padding-bottom: 15px;
+    }
+
+    .footer {
+        display: none;
+    }
+}
+
+@media (max-height: 450px){
+    .left {
+        padding-bottom: 15px;
+    }
+    .footer {
+        display: none;
+    }
+}
+
+@media (max-width: 450px){
+    #singular {
+        width: 300px;
+    }
+}
+
+@media (max-width: 300px){
+    #singular {
+        width: 250px;
+    }
+
+    #repertorio {
+        width: 200px;
+    }
+}
